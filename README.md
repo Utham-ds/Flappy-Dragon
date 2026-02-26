@@ -22,7 +22,8 @@ A Python/Pygame implementation of a Flappy Bird–style side‑scrolling game, f
    ```bash
    pip install pygame
 2. Run the main file:
-      python flappy.py
+   ```bash
+   python flappy.py
 3. Press SPACE to start the game and to make the dragon flap.
 4. Fly through the gaps between pipes without hitting them or the ground.
 5. Your score increases each time you successfully pass a set of pipes.
