@@ -2,6 +2,17 @@
 
 A Python/Pygame implementation of a Flappy Bird–style side‑scrolling game, featuring a flying dragon character. Developed as a personal project to practise real‑time game loops, collision detection and basic game state management.
 
+## Project Structure
+
+```text
+flappy-dragon/
+├─ flappy.py          # Main game script (Pygame loop, logic, rendering)
+└─ assets/            # Image assets used in the game
+   ├─ dragon.png
+   ├─ Background.jpg
+   └─ Pipe.png
+```
+
 ## Objectives
 
 - Practise structuring a small game project in Python.
@@ -23,24 +34,6 @@ A Python/Pygame implementation of a Flappy Bird–style side‑scrolling game, f
   - On‑screen score that increments as the player successfully passes pipes.  
   - Current level indicator displayed during gameplay.  
   - Simple text prompts for “Press SPACE to Start” and “Game Over – Press SPACE to Restart”.
-
-
-## Tech Stack
-
-- Python 3
-- Pygame
-- Basic object‑oriented and event‑driven programming concepts
-
-## Project Structure
-
-```text
-flappy-dragon/
-├─ flappy.py          # Main game script (Pygame loop, logic, rendering)
-└─ assets/            # Image assets used in the game
-   ├─ dragon.png
-   ├─ Background.jpg
-   └─ Pipe.png
-
 
 ## How to Play
 
